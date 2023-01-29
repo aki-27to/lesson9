@@ -1,7 +1,10 @@
 package com.dai8kadai.mybatisdemo;
 
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
+@Service
 public class NameServiceImpl implements NameService{
 
 private final NameMapper nameMapper;
