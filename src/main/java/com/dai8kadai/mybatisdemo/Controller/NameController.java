@@ -1,5 +1,7 @@
-package com.dai8kadai.mybatisdemo;
+package com.dai8kadai.mybatisdemo.Controller;
 
+import com.dai8kadai.mybatisdemo.Model.Name;
+import com.dai8kadai.mybatisdemo.Service.NameService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

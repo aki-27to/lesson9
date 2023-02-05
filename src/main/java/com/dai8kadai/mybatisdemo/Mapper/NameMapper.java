@@ -1,5 +1,6 @@
-package com.dai8kadai.mybatisdemo;
+package com.dai8kadai.mybatisdemo.Mapper;
 
+import com.dai8kadai.mybatisdemo.Model.Name;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

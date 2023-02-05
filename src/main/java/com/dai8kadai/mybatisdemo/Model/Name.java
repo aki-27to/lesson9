@@ -1,4 +1,4 @@
-package com.dai8kadai.mybatisdemo;
+package com.dai8kadai.mybatisdemo.Model;
 
 public class Name {
    private int id;
