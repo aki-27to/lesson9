@@ -16,7 +16,6 @@ public class NameController {
         this.nameService = nameService;
     }
 
-
     @GetMapping("/names")
     public List<Name> getNames(){
         return nameService.findAll();
