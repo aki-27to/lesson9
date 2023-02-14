@@ -2,24 +2,36 @@ package com.dai8kadai.mybatisdemo.Model;
 
 public class Movie {
     private int id;
-    private String title;
     private int publishedYear;
+    private String Title;
 
-    public Movie(int id, String title, int publishedYear) {
+    public Movie(int id, int publishedYear, String title) {
         this.id = id;
-        this.title = title;
         this.publishedYear = publishedYear;
+        this.Title = title;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getTitle() {
-        return title;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getPublishedYear() {
         return publishedYear;
+    }
+
+    public void setPublishedYear(int publishedYear) {
+        this.publishedYear = publishedYear;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
     }
 }

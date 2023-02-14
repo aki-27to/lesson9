@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS movies;
 CREATE TABLE movies (
   id int unsigned AUTO_INCREMENT,
   published_year int NOT NULL,
-  title VARCHAR(20) NOT NULL,
+  title VARCHAR(100) NOT NULL,
   PRIMARY KEY (id)
 );
 

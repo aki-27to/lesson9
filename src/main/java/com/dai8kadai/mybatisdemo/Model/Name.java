@@ -6,7 +6,7 @@ public class Name {
 
     public Name(int id, String name) {
         this.id = id;
-        Name = name;
+        this.Name = name;
     }
 
     public int getId() {
