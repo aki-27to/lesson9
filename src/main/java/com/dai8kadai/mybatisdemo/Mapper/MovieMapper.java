@@ -10,5 +10,9 @@ import java.util.List;
 public interface MovieMapper {
     @Select("SELECT * FROM movies")
     List<Movie> findAll();
+
+    @Select("SELECT * FROM movies WHERE published_year = #{publishedYear}")
+    List<Movie> findMoviesByPublishedYear(Integer publishedYear);
 }
+
 
